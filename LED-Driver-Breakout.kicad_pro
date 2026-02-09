@@ -506,10 +506,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../../../Downloads/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LED-Driver-Breakout.step",
       "svg": "",
       "vrml": ""
     },
