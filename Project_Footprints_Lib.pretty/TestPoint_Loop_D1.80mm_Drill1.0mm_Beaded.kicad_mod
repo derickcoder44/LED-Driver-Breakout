@@ -1,0 +1,161 @@
+(footprint "TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm")
+	(tags "test point wire loop bead")
+	(property "Reference" "REF**"
+		(at 0.083333 -2.5 180)
+		(layer "F.SilkS")
+		(uuid "15b7ec51-85eb-4118-b8b5-eae227a8fe3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(at 0 -2.8 180)
+		(layer "F.Fab")
+		(uuid "49401cad-675e-4634-8d2b-bc7f85ce6d49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09e86a05-2b63-44cb-a927-5390e1e52a2a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24430db9-4c5f-4572-a208-c8d43253a3e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eac9ca1a-0864-46d3-8721-f15fe86be1b6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.8 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ab55b658-0571-4dc9-8714-114f0584a9db")
+	)
+	(fp_line
+		(start -0.9 -0.2)
+		(end 0.9 -0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3015640e-f854-47bf-ac1a-3c16223e90fd")
+	)
+	(fp_line
+		(start -0.9 0.2)
+		(end -0.9 -0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e21a3f84-488e-4662-b595-4f1bcd334889")
+	)
+	(fp_line
+		(start 0.9 -0.2)
+		(end 0.9 0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58c136d3-0c67-4385-b680-8e073292ad3d")
+	)
+	(fp_line
+		(start 0.9 0.2)
+		(end -0.9 0.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10e24493-0691-41ca-ae36-91c1425fcb94")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.3 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0261511a-49e5-470b-82d4-fdc2e1ee3201")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.083333 -2.5 180)
+		(layer "F.Fab")
+		(uuid "9ca95245-cc61-40c0-b3a0-238a2c3f3fff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c4318615-5079-4ef0-949f-6a2ecb31bdfc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

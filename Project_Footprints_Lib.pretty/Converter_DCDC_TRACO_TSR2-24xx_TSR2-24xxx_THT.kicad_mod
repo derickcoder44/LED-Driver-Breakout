@@ -1,0 +1,188 @@
+(footprint "Converter_DCDC_TRACO_TSR2-24xx_TSR2-24xxx_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, TRACO, TSR2-24xx, TSR2-24xxx, 2A, Rev.2026-03-02, https://www.tracopower.com/products/tsr2.pdf")
+	(tags "DCDC-Converter SWITCHING-REGULATOR STEP-DOWN TRACO TSR2 2.54MM THT SIP-3 2A")
+	(property "Reference" "REF**"
+		(at 1.65 -4.65 180)
+		(layer "F.SilkS")
+		(uuid "0dde146b-6edf-4451-9b87-ce71aad42b8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSR2-24120"
+		(at 1.65 9.75 180)
+		(layer "F.Fab")
+		(uuid "b2ba0a83-ea20-49bc-bf27-04a17ab4ea6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.tracopower.com/products/tsr2.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4612129a-e86f-4ff5-9443-fed68b7b09ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2A step-down regulator, fixed 12V output voltage, 15-36V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d014c132-c877-403f-89aa-c4ab6d39b1f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.735 -3.81)
+		(end 6.035 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "99da1b6a-e124-46d4-b0bd-e50b48527a57")
+	)
+	(fp_line
+		(start -2.735 -0.296)
+		(end -2.735 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "257bf1f7-b041-425f-b87a-806f4daa3ea6")
+	)
+	(fp_line
+		(start -2.735 8.91)
+		(end -2.735 0.296)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11306669-e229-410c-be28-146a094a7253")
+	)
+	(fp_line
+		(start 6.035 -3.81)
+		(end 6.035 8.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73b74958-db74-4a6c-9203-aea6f1d013d4")
+	)
+	(fp_line
+		(start 6.035 8.91)
+		(end -2.735 8.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b76269e0-80c8-4b14-9ed2-cacf749bf129")
+	)
+	(fp_poly
+		(pts
+			(xy -2.735 0) (xy -3.205 0.34) (xy -3.205 -0.34)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "8b2862f9-4e5a-4e8d-a6d5-bf815cc261a8")
+	)
+	(fp_rect
+		(start -2.88 -3.95)
+		(end 6.18 9.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e5e9c2b0-2362-4679-8bba-2438b7f312e0")
+	)
+	(fp_poly
+		(pts
+			(xy -1.125 -3.2) (xy 5.425 -3.2) (xy 5.425 8.3) (xy -2.125 8.3) (xy -2.125 -2.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d22f8d77-30e4-4ef3-8073-0aeaa25baecc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.65 2.55 180)
+		(layer "F.Fab")
+		(uuid "f8531d2b-6548-4e98-b596-0aee87abd350")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.138889)
+		(uuid "785068f8-3738-4320-a8a7-31597fd882dd")
+	)
+	(pad "2" thru_hole circle
+		(at 0 2.54)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ecb8614-da5c-4f71-a45c-c2cee4f2b626")
+	)
+	(pad "3" thru_hole circle
+		(at 0 5.08)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b6952da9-aa43-431d-9503-0fe923bffda6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_TRACO_TSR0.5-24xx_TSR0.5-24xxx_THT.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
