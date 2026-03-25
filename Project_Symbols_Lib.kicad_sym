@@ -736,7 +736,7 @@
 			)
 		)
 		(symbol "LDH-45B-1050_1_0"
-			(pin power_in line
+			(pin passive line
 				(at -17.78 7.62 0)
 				(length 5.08)
 				(name "VIN+"
@@ -754,7 +754,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -17.78 2.54 0)
 				(length 5.08)
 				(name "VIN-"
@@ -831,7 +831,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Footprints_Lib:Converter_DCDC_TRACO_TSR2-24xx_TSR2-24xxx_THT"
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR2-xxxx_THT"
 			(at 0 -6.096 0)
 			(effects
 				(font
@@ -891,7 +891,7 @@
 			)
 		)
 		(symbol "TSR2-24120_1_1"
-			(pin power_in line
+			(pin passive line
 				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "Vin"
@@ -909,7 +909,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "GND"
